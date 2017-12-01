@@ -9,7 +9,7 @@ Smart contract contains such contracts as Ownable.sol, ERC20Basic.sol (they are 
 
 The basic logic is contained in the contract TokenICO.sol
 
-## Main craracters of smart contract
+## Main characteristics of smart contract
 - Total contract creates 1md. tokens.
 - 2 million tokens are sold at preICO.
 - 98 million are stored on purse for payment of lotteries and bounty.
