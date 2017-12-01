@@ -98,6 +98,7 @@ contract TokenICO is StandardToken {
                 _transfer(addressTokensForOwners, addressSmithy, 200000000);
                 if (currentBalance != tokensShouldBe) { 
                     Transfer(addressTokensICO, 0x0, currentBalance - 700000000 * decPlace);
+                    totalSupply -= currentBalance - 700000000 * decPlace;
                     balances[addressTokensICO] = tokensShouldBe; //burn unsold tokens after each stage
                 }   
                 CurrentStageICO = "The first stage ICO is finished. Expect the second stage."; 
@@ -107,6 +108,7 @@ contract TokenICO is StandardToken {
                 tokensShouldBe = 400000000 * decPlace;
                 if (currentBalance != tokensShouldBe) {
                     Transfer(addressTokensICO, 0x0, currentBalance - 400000000 * decPlace);
+                    totalSupply -= currentBalance - 400000000 * decPlace;
                     balances[addressTokensICO] = tokensShouldBe;
                 } 
                 indxCurCoeffic = 3; 
@@ -114,6 +116,7 @@ contract TokenICO is StandardToken {
             } else if (StageICO == 3) {
                 sendTokensOwners(StageICO, currentBalance);  
                 Transfer(addressTokensICO, 0x0, balances[addressTokensICO]);
+                totalSupply -= balanceOf[addressTokensICO];
                 Transfer(addressTokensForOwners, 0x0, balances[addressTokensForOwners]);
                 balances[addressTokensICO] = 0;
                 balances[addressTokensForOwners] = 0;
