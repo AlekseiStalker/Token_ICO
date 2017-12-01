@@ -18,7 +18,7 @@ The basic logic is contained in the contract TokenICO.sol
 - The cost of the token increases as the number of tokens sold increases.
 - All ICO stages will "switched on" and "off" manually.
 - If at some stage not all tokens are sold - unsold tokens are burned.
-- All the test are written on JavaScript in the 'test' folder. 
+- All test are written on JavaScript in the 'test' folder. 
 
 Below are the dates of the stages of ICO and how many tokens should be sold at each of the stages.
 
