@@ -18,12 +18,12 @@ The basic logic is contained in the contract TokenICO.sol
 - The cost of the token increases as the number of tokens sold increases.
 - All ICO stages will "switched on" and "off" manually.
 - If at some stage not all tokens are sold - unsold tokens are burned.
+- All the test are written on JavaScript in the 'test' folder. 
 
 Below are the dates of the stages of ICO and how many tokens should be sold at each of the stages.
+
 ![default](https://user-images.githubusercontent.com/29926552/33488871-cc3ac7de-d6ba-11e7-9689-8b0bc6abd54d.png)
-
-All the test are written on JavaScript in the 'test' folder. 
-
+ 
 ## How to setup development environment and run tests?
 
 use this link to install all u needed -> http://truffleframework.com/tutorials/how-to-install-truffle-and-testrpc-on-windows-for-blockchain-development
