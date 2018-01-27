@@ -2,7 +2,7 @@
 Smart contract for creating a token and implementation of ICO.
 
 ---------------- 
-(This is my experience on a solidity Smart contract, dated in the spring of 2017. This contract is not a sample of the standard and contains a lot of strange logic, but it still interesting for me to watch my progress, so I'll post it as my first works. In addition, I wrote this contract for a company that has already completed the preICO, so some things may not be fully understandable.)
+(This is my experience of programming solidity Smart contract, dated in the spring of 2017. This contract is not a sample of the standard and contains a lot of strange logic, but it still interesting for me to watch my progress, so I'll post it as my first works. In addition, I wrote this contract for a company that has already completed the preICO, so some things may not be fully understandable.)
 ---------------- 
  
 Smart contract contains such contracts as Ownable.sol, ERC20Basic.sol (they are also the standard ERC179) and StrandardToken.sol, which contains the implementation of this standard.
